@@ -125,9 +125,7 @@ if b>=65 and b<=90:
 else:
     print("it is a lowercase")'''
 
-#ASCII (numeric char)
-a=int(input("enter the num:"))
-if a
+
 
 
 
