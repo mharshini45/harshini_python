@@ -1,0 +1,121 @@
+import turtle as t
+a=t.Screen()
+a.bgcolor("pink")
+a.title("Name")
+a.setup(width=1000,height=500)
+a.screensize(1000,500)
+#to create a curser
+t1=t.Turtle()
+#to alter the size
+t1.shapesize(2,2,3)
+t1.penup()
+t1.backward(500)
+t1.pendown()
+t1.pensize(5)
+
+#Name H
+t1.left(90)
+t1.forward(228)
+t1.backward(114)
+t1.right(90)
+t1.forward(100)
+t1.left(90)
+t1.forward(114)
+t1.backward(228)
+
+#letter A
+t1.left(339)
+t1.forward(228)
+t1.left(220)
+t1.forward(228)
+t1.backward(114)
+t1.right(109)
+t1.forward(80)
+t1.backward(80)
+t1.left(109)
+t1.forward(110)
+
+#letter R
+t1.left(160)
+t1.forward(210)
+t1.right(90)
+t1.forward(100)
+t1.right(90)
+t1.forward(100)
+t1.left(80)
+t1.right(170)
+t1.forward(100)
+t1.left(130)
+t1.forward(150)
+
+#letter S
+t1.left(50)
+t1.forward(150)
+t1.left(90)
+t1.forward(110)
+t1.left(90)
+t1.forward(110)
+t1.right(90)
+t1.forward(105)
+t1.right(90)
+t1.forward(110)
+
+#letter H
+#t1.right(90)
+#t1.forward(218)
+t1.backward(110)
+t1.right(90)
+t1.forward(105)
+t1.left(90)
+t1.forward(110)
+t1.right(90)
+t1.forward(110)
+t1.left(90)
+t1.forward(25)
+t1.left(90)
+t1.forward(218)
+t1.backward(110)
+t1.right(90)
+t1.forward(110)
+t1.left(90)
+t1.forward(110)
+t1.backward(218)
+
+#letter I
+t1.right(90)
+t1.forward(150)
+t1.backward(75)
+t1.left(90)
+t1.forward(218)
+t1.left(90)
+t1.forward(50)
+t1.backward(100)
+
+#letter N
+t1.forward(50)
+t1.left(90)
+t1.forward(218)
+t1.left(90)
+t1.forward(80)
+t1.left(90)
+t1.forward(220)
+t1.right(150)
+t1.forward(250)
+t1.left(150)
+t1.forward(215)
+t1.backward(215)
+t1.right(90)
+
+#letter I
+t1.forward(100)
+t1.backward(50)
+t1.left(90)
+t1.forward(215)
+t1.left(90)
+t1.forward(35)
+t1.backward(80)
+t1.hideturtle()
+
+
+
+
